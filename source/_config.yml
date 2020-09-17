@@ -98,11 +98,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-next
+theme: hexo-theme-next #简约
 # theme: hexo-theme-indigo error
 # theme: hexo-theme-yilia
-# theme: hexo-theme-icarus man
+# theme: hexo-theme-icarus # man 慢
 # theme: hexo-theme-matery # 访问人数
+# theme: hexo-theme-miho # 小点点
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
