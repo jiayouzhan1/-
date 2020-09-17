@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 加油站
+title: Hexo
 subtitle: ''
 description: ''
 keywords:
-author: jiayouzhan
+author: John Doe
 language: en
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://jiayouzhan.today/
+url: https://jiayouzhan.today/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -98,16 +98,18 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-next #简约
-# theme: hexo-theme-indigo error
+# theme: hexo-theme-next #简约
 # theme: hexo-theme-yilia
 # theme: hexo-theme-icarus # man 慢
 # theme: hexo-theme-matery # 访问人数
-# theme: hexo-theme-miho # 小点点
+
+theme: hexo-theme-miho # 小点点
+# theme: hexo-theme-indigo error
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:jiayouzhan1/jiayouzhan.git
+  repository: git@github.com:jiayouzhan1/jiayouzhan.git
   branch: master
+
